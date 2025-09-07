@@ -1,13 +1,13 @@
 import styles from "./ProjectStyles.module.css";
 import ProjectCard from "../../common/ProjectCard";
 
-// images imports 
+// images imports
 
 import eliteAuctions from "../../assets/elite-auctions.png";
 import FlightManagementSystem from "../../assets/FlightManagementSystem.png";
 import ExpenseTrackerBackend from "../../assets/ExpenseTrackerBackend.png";
 import ShoppingManagement from "../../assets/ShoppingManagement.png";
-
+import NetworkApp from "../../assets/NetworkApp.jpg";
 
 const projects = {
 	eliteAuctions: {
@@ -15,6 +15,12 @@ const projects = {
 		link: "https://danishahmed2.pythonanywhere.com/",
 		h3: "Elite Auctions",
 		p: "Django -  Web App",
+	},
+	NetworkApp: {
+		src: NetworkApp,
+		link: "https://danish121.pythonanywhere.com/",
+		h3: "Network App",
+		p: "Django - Social Media App",
 	},
 	FlightManagementSystem: {
 		src: FlightManagementSystem,
