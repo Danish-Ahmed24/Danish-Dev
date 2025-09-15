@@ -8,13 +8,20 @@ import FlightManagementSystem from "../../assets/FlightManagementSystem.png";
 import ExpenseTrackerBackend from "../../assets/ExpenseTrackerBackend.png";
 import ShoppingManagement from "../../assets/ShoppingManagement.png";
 import NetworkApp from "../../assets/NetworkApp.jpg";
-
+import InternalTaskPortal from "../../assets/InternalTaskPortal.png"
 const projects = {
 	eliteAuctions: {
 		src: eliteAuctions,
 		link: "https://danishahmed2.pythonanywhere.com/",
 		h3: "Elite Auctions",
 		p: "Django -  Web App",
+	},
+	InternalTaskPortal: {
+		src: InternalTaskPortal,
+		link: "https://github.com/Danish-Ahmed24/Internal-Company-Portal",
+		h3: "Internal Task Portal",
+		// p: "Django - task and project management, developed as an internship project at Lokhandwala Web Solutions House",
+		p: "Django - Internal Task Portal at LWWSH",
 	},
 	NetworkApp: {
 		src: NetworkApp,
@@ -40,6 +47,7 @@ const projects = {
 		h3: "Shopping Management",
 		p: "C - Console Based",
 	},
+	
 };
 
 function Projects() {
